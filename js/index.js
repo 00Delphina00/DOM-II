@@ -7,3 +7,10 @@ navMouseover.addEventListener('mouseover', (event)=>{
     event.target.style.backgroundColor = 'transparent';
     event.target.style.color = 'brown';
 });
+
+//
+
+
+document.addEventListener('keydown', (event)=>{
+    console.log(event);
+});
